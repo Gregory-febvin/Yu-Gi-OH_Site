@@ -1,0 +1,84 @@
+html, body { /* Toute la page, permet d'avoir le menu propre */
+    margin: 0;
+    padding: 0; 
+}
+
+.audio{
+    margin-left: 40%;
+}
+
+
+
+.banners{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    position: relative;
+    width: 980px;
+    top: 200px;
+    margin-top: 800px;
+    display: block; /*Place les éléments avec une dispotition bloc*/
+    }
+    
+.header{
+height: 100px;
+width: 100%;
+background: #7ea3a1;
+}
+    
+    
+    
+.header_navbar{
+height: 70px;
+width: 100%;
+display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
+flex-direction: row;        /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
+justify-content: space-around; /*Permet a mon titre de site et mon bouton pour revenir aux menue principale de se placer aux centre*/
+align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
+}
+    
+h5 {
+font-family: 'Maiden Orange',Arial,serif;  /*Police du texte*/
+font-size: 18px;
+}
+
+.thumb_page {
+width: 100px;
+height: 290px;
+text-align: center;
+padding: 10px;       /*Ecart entre les 4 coté d'un élément*/
+margin: 4px;
+
+float: none;
+line-height: 15px;
+color: #58595B;
+font-family: Arial,Helvetica,sans-serif;   /*Police du texte*/
+font-size: 12px;
+width: 30%;
+
+border: 1px solid #A7A9AC;
+background: #E9EAEB;
+border-radius: 10px;
+box-shadow: 3px 3px 7px #CCC;
+display: inline-block;
+}
+
+.box{
+line-height: 15px;
+color: #58595B;
+font-family: Arial,Helvetica,sans-serif;   /*Police du texte*/
+font-size: 12px;
+text-align: center;
+width: 80%;
+position: relative;
+border: 1px solid #A7A9AC;
+background: #E9EAEB;            /*Couleur de fond*/
+border-radius: 10px;               /*border-radius permet de définir des coins arrondis pour la bordure d'un élément*/
+box-shadow: 3px 3px 7px #CCC;        /*box-shadow ajoute des ombres à la boîte d'un élément*/
+padding: 3%; 
+margin: 5%;
+display: block;
+}
+
+
+
