@@ -3,6 +3,15 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
     padding: 0; 
 }
 
+body{
+    
+    background-image: url("Fond_menu_principale2.jpg");
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    background-position: center center;
+}
+
 .audio{
     margin-left: 40%;
 }
@@ -23,7 +32,7 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
 .header{
 height: 100px;
 width: 100%;
-background: #7ea3a1;
+background-color: #58595B;
 }
     
     
@@ -32,8 +41,8 @@ background: #7ea3a1;
 height: 70px;
 width: 100%;
 display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
-flex-direction: row;        /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
-justify-content: space-around; /*Permet a mon titre de site et mon bouton pour revenir aux menue principale de se placer aux centre*/
+flex-direction: column;     /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
+justify-content: center; /*Permet a mon titre de site et mon bouton pour revenir aux menu principal de se placer aux centre*/
 align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
 }
     
@@ -80,5 +89,8 @@ margin: 5%;
 display: block;
 }
 
-
+.carte{
+    width: 30%; 
+    height: 70%;
+}
 
