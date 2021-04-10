@@ -1,0 +1,82 @@
+html, body { /* Toute la page, permet d'avoir le menu propre */
+    margin: 0;
+    padding: 0; 
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background: #7ea3a1;
+}
+
+
+
+
+.header_navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
+    flex-direction: row;        /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
+    justify-content: space-around; /*Permet a mon titre de site et mon bouton pour revenir aux menue principale de se placer aux centre*/
+    align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
+}
+
+.Placement{
+	
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+	height: 25%;
+}
+
+
+
+body{
+    background-color: #CBDEDE;
+       
+}
+
+.Contenue{
+    margin-left: 10%;
+}
+
+mark{
+    background-color: 4390DC;
+}
+
+h2{
+    color: 082A85;
+    font-size: 34px ;
+}
+
+div{
+    font-size: 22px;
+}
+
+h3{
+    color: 082A85;
+    font-size: 32px;
+}
+
+
+h4{
+    color: 082A85;
+    font-size: 32px;
+}
+
+
+
+h5{
+    color: 082A85;
+    font-size: 32px;
+}
+
+
+h1{
+    font-size: 22px;
+}
+
+
+
+
+       

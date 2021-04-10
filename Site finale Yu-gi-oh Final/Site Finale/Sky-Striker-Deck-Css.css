@@ -1,0 +1,93 @@
+html, body { /* Toute la page, permet d'avoir le menu propre */
+    margin: 0;
+    padding: 0; 
+}
+
+.banners{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #222222;
+position: relative;
+width: 980px;
+top: 200px;
+margin-top: 800px;
+display: block;
+}
+
+
+
+
+
+
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #58595B;
+}
+
+
+
+.header_navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
+    flex-direction: row;        /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
+    justify-content: space-around; /*Permet a mon titre de site et mon bouton pour revenir aux menue principale de se placer aux centre*/
+    align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
+}
+
+
+
+.BoxDeckInfo{
+    line-height: 15px; /*Taile de la ligne*/
+    color: #58595B;
+    font-family: Arial,Helvetica,sans-serif; /*Police d'écriture*/
+    font-size: 12px;
+    border: 1px solid #A7A9AC;
+    border-radius: 10px;           /*Permet de définir les coin de mon cadre comme arrondie*/
+    box-shadow: 3px 3px 7px #CCC; /*Ombrage du cadre*/
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    background: #FFF;
+    width: 560px;
+    float: left;   
+    position: relative; /*Permet a l'aide de la ligne précédente de placer mes information a gauche par rapport a la Box*/
+    }
+
+
+.m-left{
+    float: left;
+}
+.m-right{
+    float: right;
+}
+thead{
+    background-color: #D0E3FA;
+}
+
+
+table .IMG:hover            /*Permet d'agrandir une image lorsque l'on passe la souris dessus*/
+{
+    -webkit-transform:scale(2.1); /*L'image fera 2,1 fois sa taille après agrandissement*/
+    transform: scale(2.1); 
+    transition: transform;
+    transition-duration: 1s; /*L'image prendra 1s pour s'agrandir*/
+   
+    
+}
+
+
+.IMG{
+    height:180px;
+    width:130px;
+}
+
+.card{
+    display: none;
+    position: absolute;
+    top: 115px;
+    right: 75px;
+    height: 600px;
+}

@@ -1,0 +1,172 @@
+html, body { /* Toute la page, permet d'avoir le menu propre */
+    margin: 0;
+    padding: 0; 
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background: #7ea3a1;
+}
+
+
+
+
+.header_navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
+    flex-direction: row;        /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
+    justify-content: space-around; /*Permet a mon titre de site et mon bouton pour revenir aux menue principale de se placer aux centre*/
+    align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
+}
+
+.taleaux{
+table-layout: fixed;
+width: 623pt;
+border: none;     
+}
+
+
+.tableaux_haut{
+border-left: none;
+width: 178pt;
+font-size: 12.0pt;
+color: white;    /*Couleur de la police*/
+font-weight: bold;
+font-family: Calibri, sans-serif;   /*Style de la police*/
+border: .5pt solid windowtext;
+background-color: #1C1C1C;         /*Couleur de fond de la case*/
+border: none;                    
+}
+
+ .monstre{
+    border-top: none;
+    border-left: none;
+    width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;     /*Aspect des contoure de la bordure*/
+    background-color: #ddd26d;     /*Couleur de fond de la case*/
+    border: none;
+ }
+
+.monstre_effect{
+border-top: none;
+border-left: none;
+width: 178pt;
+font-size: 11.0pt;
+color: black;         /*Couleur de la police*/
+font-weight: 400;
+font-family: Calibri, sans-serif;    /*Style de la police*/
+border: .5pt solid windowtext; /*Aspect des contoure de la bordure*/
+background-color: #daa161;     /*Couleur de fond de la case*/
+border: none;
+                    
+}
+
+
+
+.monstre_fusion{
+border-top: none;
+border-left: none;
+width: 178pt;
+font-size: 11.0pt;
+color: black;         /*Couleur de la police*/
+font-weight: 400;
+font-family: Calibri, sans-serif;    /*Style de la police*/
+border: .5pt solid windowtext;   /*Aspect des contoure de la bordure*/
+background-color: #CF9FFF;     /*Couleur de fond de la case*/
+border: none;
+                        
+}
+
+.monstre_rituel{
+border-top: none;
+border-left: none;
+width: 178pt;
+font-size: 11.0pt;
+color: black;         /*Couleur de la police*/
+font-weight: 400;
+font-family: Calibri, sans-serif;    /*Style de la police*/
+border: .5pt solid windowtext;    /*Aspect des contoure de la bordure*/
+background-color: #538DD5;     /*Couleur de fond de la case*/
+border: none;
+                            
+}
+    
+.monstre_lien{
+border-top: none;
+border-left: none;width: 178pt;
+font-size: 11.0pt;
+color: black;         /*Couleur de la police*/
+font-weight: 400;
+font-family: Calibri, sans-serif;    /*Style de la police*/
+border: .5pt solid windowtext;     /*Aspect des contoure de la bordure*/
+background-color:  #2679b8;     /*Couleur de fond de la case*/
+border: none;
+                                
+}
+
+.monstre_synchro{
+    border-top: none;
+    border-left: none;width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;       /*Aspect des contoure de la bordure*/
+    background-color:  rgb(245, 245, 245);     /*Couleur de fond de la case*/
+    border: none;
+                                    
+}
+
+.monstre_xyz{
+    border-top: none;
+    border-left: none;width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;       /*Aspect des contoure de la bordure*/
+    background-color:  #424040e8;     /*Couleur de fond de la case*/
+    border: none;
+    color: rgba(214, 206, 206, 0.966);
+                                    
+}
+
+.piege{
+    border-top: none;
+    border-left: none;width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;      /*Aspect des contoure de la bordure*/
+    background-color:  #BC5A84;     /*Couleur de fond de la case*/
+    border: none;
+
+                                    
+}
+
+.magie{
+    border-top: none;
+    border-left: none;width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;       /*Aspect des contoure de la bordure*/
+    background-color: #1D9E74;     /*Couleur de fond de la case*/
+    border: none;
+
+                                    
+}
+
+
+
+
+
+
