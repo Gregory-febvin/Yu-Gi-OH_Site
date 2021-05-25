@@ -308,4 +308,16 @@
 </table>
 
 </body>
+
+<script>
+    function showImage(id) {
+        const target = document.getElementById(id).getElementsByTagName('img')[0];
+        target.style.display = "inherit";
+    }
+    function hideImage(id) {
+        const target = document.getElementById(id).getElementsByTagName('img')[0];
+        target.style.display = "none";
+    }
+</script>
+
 </html>
