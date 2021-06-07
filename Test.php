@@ -7,12 +7,13 @@
 //Connexion à la base de données
 mysql_connect('serveur', 'utilisateur', 'motdepasse');
 mysql_select_db('basededonnees');
+ $MaBase = new PDO('mysql:host=localhost; dbname=test; charset=utf8','root', '');
  
 $messagesParPage=5; //Nous allons afficher 5 messages par page.
  
 //Une connexion SQL doit être ouverte avant cette ligne...
-$retour_total=mysql_query('SELECT COUNT(*) AS total FROM livredor'); //Nous récupérons le contenu de la requête dans $retour_total
-$donnees_total=mysql_fetch_assoc($retour_total); //On range retour sous la forme d'un tableau.
+$retour_total=$MaBase->query('SELECT COUNT(*) AS total FROM livredor'); //Nous récupérons le contenu de la requête dans $retour_total
+$donnees_total=$retour_total->fetch(); //On range retour sous la forme d'un tableau.
 $total=$donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
  
 //Nous allons maintenant compter le nombre de pages.
