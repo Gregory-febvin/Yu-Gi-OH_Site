@@ -2,39 +2,36 @@
     <head>
          <link href="Sky-Striker-Deck-Css.css " rel="stylesheet">
          <meta charset=UTF-8>
-                              
-    </header>  
-    
     </head>
-   
     
 <body style="background-color: #E8F2D8;">                    
     <div class="header">                                             <!--Entête du site avec un bouton pour revenir au menue principal et le titre ou logo du site-->
         <div class="header_navbar">
             <div class="header_navbar_logo">
-              <h1 clas="header_navbar_logo">Site Web</h1>
-               <div class="header_navbar_menu">
-                <a href="../index.html">
-                    <img src="Menu-Creation.png" width="120" height="40" alt="image du menue principale" />
-                  </a>
-               </div>
-          </div> 
+                <h1 clas="header_navbar_logo">Site Web</h1>
+                    <div class="header_navbar_menu">
+                        <a href="../index.html">
+                            <img src="Menu-Creation.png" width="120" height="40" alt="image du menue principale" />
+                        </a>
+                    </div>
+            </div> 
         </div>
-      </div>
+    </div>
 
-      <div class="BoxDeckInfo" id="deck-header" style="background-color: whitesmoke;">             <!--Création d'un encadré avec des information sur le créateur du deck, son format, sa légalité et le nom du deck-->
+    <div class="BoxDeckInfo" id="deck-header" style="background-color: whitesmoke;">             <!--Création d'un encadré avec des information sur le créateur du deck, son format, sa légalité et le nom du deck-->
         <h1>
-         <em>Deck</em> Sky Striker 
-         </h1>
-         <div class="fond_carte_s" style="margin:0 10px 0 0;float:left;">
-         <img src="Image/Sky Striker/Raye.png" alt="Assaut de l'Air - As - Raye" height="120px" width="90px">
-         </a></div> 
-         <em>Créé par <a>Zerzeusse</a> le 28 février 2020</em>
-         <br><strong> Categorie :</strong> Deck Yu-Gi-Oh 
-         <br><strong> Format de Tournoi</strong> : Aucun 
-         <p><img src="BoutonLegal.png" alt="" title="Deck Légal"> Ce deck est légal</p>
-      </div>
+            <em>Deck</em> Sky Striker 
+        </h1>
+            <div class="fond_carte_s" style="margin:0 10px 0 0;float:left;">
+                <img src="Image/Sky Striker/Raye.png" alt="Assaut de l'Air - As - Raye" height="120px" width="90px">
+            </div>
 
+        <em>Créé par <a>Zerzeusse</a> le 28 février 2020</em>
+        <br><strong> Categorie :</strong> Deck Yu-Gi-Oh 
+        <br><strong> Format de Tournoi</strong> : Aucun
+
+        <p><img src="BoutonLegal.png" alt="" title="Deck Légal"> Ce deck est légal</p>
+    </div>
         
 
     <div class="Box_Decklist">
@@ -42,22 +39,18 @@
     <table border="" width="35%" id="decklistSS">
 
       <thead>
-
-        <tr><th colspan="2">Main Deck (42)</th>
+        <tr>
+            <th colspan="2">Main Deck (42)</th>
         </tr>
-
       </thead>
 
 
-
-      <thead>
-        
+      <thead> 
         <tr>
             <th >Monstres (15)</th>
             <th class="Nbcollection">Nb jouée</th>
             
         </tr>
-
       </thead>
 
       <tbody style="background-color: whitesmoke;" class="cardList">   <!--Définition d'une couleur pour une certaine partie du tableaux afin de le rendre facilement lisible-->
@@ -91,17 +84,13 @@
                 <span class="card_title">3 Illusioniste d'Effet</span></td>
             <td class="Nbcollection">3</td>
         </tr>
-
       </tbody>
 
       <thead>
-        
         <tr>
             <th>Magie (27)</th>
             <th class="Nbcollection">Nb jouée</th>
-            
         </tr>
-
       </thead> 
 
       <tbody style="background-color: whitesmoke;">
@@ -167,13 +156,14 @@
             <td class="Nbcollection">3</td>
         </tr>
       </tbody>
+
       <thead>
         <tr>
             <th>Extra Deck (15)</th>
             <th class="Nbcollection">Nb jouée</th>
-            
         </tr>
       </thead>
+
       <tbody style="background-color: whitesmoke;">
         <tr>
             <td id="16" onmouseover="showImage(16)" onmouseout="hideImage(16)">
@@ -219,19 +209,11 @@
         </tr>
       </tbody>
 
-      
-    
     </table>
-
     </div>
 
-
-<div class="deck_title">
-
-</div>
-
-
-<table  class='image table' align='center'>                   <!--Création du tableaux avec ajout des photos-->
+<!--
+<table  class='image table' align='center'>                   
     <tr>
         <td> <img src="Image/Sky Striker/Raye.png" class="IMG"/>  </td>
         <td> <img src="Image/Sky Striker/Raye.png"  class="IMG"/>  </td>
@@ -304,10 +286,9 @@
 
 
 </table>
-
+-->
 </body>
 <script>
-
 
     function showImage(id) {
         const target = document.getElementById(id).getElementsByTagName('img')[0];
@@ -318,8 +299,6 @@
         const target = document.getElementById(id).getElementsByTagName('img')[0];
         target.style.display = "none";
     }
-
-
 
 </script>
 </html>

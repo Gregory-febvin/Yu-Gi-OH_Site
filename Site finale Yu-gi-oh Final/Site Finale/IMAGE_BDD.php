@@ -1,7 +1,18 @@
+<?php
 try{
-    $user = "greg";
-    $pass = "greg";
-    $mabase = new PDO('mysql:localhost;dbname=YU_GI_OH', $user, $pass);
-}catch(Exception $e){
-    $errorMessage .= $e->getMessage();
+    $BDD=new PDO('mysql:host=localhost;dbname=yugioh','root','');
 }
+catch(Exeption $e){
+    die('Erreur : ' . $e->getMessage());
+}
+
+$requete = "SELECT * FROM carte ORDER BY id ";
+$result = $BDD->query($requete);
+
+while($carte=$result->fetch()){
+    echo $carte['id'];
+    echo '<td>'.$carte['Nom'].'</td>';
+    echo '<td><img src="'.$carte['LienImage'].'"></td>';
+}
+
+?>

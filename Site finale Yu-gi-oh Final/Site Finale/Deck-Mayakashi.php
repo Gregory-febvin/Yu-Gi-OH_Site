@@ -2,11 +2,7 @@
     <head>
          <link href="Sky-Striker-Deck-Css.css " rel="stylesheet">
          <meta charset=UTF-8>
-                              
-    </header>  
-    
     </head>
-   
     
 <body style="background-color: #E8F2D8;">                    
     <div class="header">                                             <!--Entête du site avec un bouton pour revenir au menue principal et le titre ou logo du site-->

@@ -14,12 +14,6 @@ margin-top: 800px;
 display: block;
 }
 
-
-
-
-
-
-
 .header{
     height: 100px;
     width: 100%;
@@ -37,8 +31,6 @@ display: block;
     align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
 }
 
-
-
 .BoxDeckInfo{
     line-height: 15px; /*Taile de la ligne*/
     color: #58595B;
@@ -51,10 +43,10 @@ display: block;
     padding: 1%;
     text-align: left;
     background: #FFF;
-    width: 560px;
+    width: 30%;
     float: left;   
     position: relative; /*Permet a l'aide de la ligne précédente de placer mes information a gauche par rapport a la Box*/
-    }
+}
 
 
 .m-left{
@@ -68,26 +60,25 @@ thead{
 }
 
 
+
 table .IMG:hover            /*Permet d'agrandir une image lorsque l'on passe la souris dessus*/
 {
     -webkit-transform:scale(2.1); /*L'image fera 2,1 fois sa taille après agrandissement*/
     transform: scale(2.1); 
     transition: transform;
     transition-duration: 1s; /*L'image prendra 1s pour s'agrandir*/
-   
-    
 }
 
-
 .IMG{
-    height:180px;
-    width:130px;
+    height: auto;
+    width:80%;
+    
 }
 
 .card{
     display: none;
     position: absolute;
-    top: 115px;
-    right: 75px;
-    height: 600px;
+    top: 15%;
+    right: 5%;
+    height: 70%;
 }

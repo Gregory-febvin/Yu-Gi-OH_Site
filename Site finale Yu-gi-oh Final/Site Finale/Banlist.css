@@ -9,9 +9,6 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
     background: #7ea3a1;
 }
 
-
-
-
 .header_navbar{
     height: 70px;
     width: 100%;
@@ -22,22 +19,22 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
 }
 
 .taleaux{
-table-layout: fixed;
-width: 623pt;
-border: none;     
+    table-layout: fixed;
+    width: 623pt;
+    border: none;     
 }
 
 
 .tableaux_haut{
-border-left: none;
-width: 178pt;
-font-size: 12.0pt;
-color: white;    /*Couleur de la police*/
-font-weight: bold;
-font-family: Calibri, sans-serif;   /*Style de la police*/
-border: .5pt solid windowtext;
-background-color: #1C1C1C;         /*Couleur de fond de la case*/
-border: none;                    
+    border-left: none;
+    width: 178pt;
+    font-size: 12.0pt;
+    color: white;    /*Couleur de la police*/
+    font-weight: bold;
+    font-family: Calibri, sans-serif;   /*Style de la police*/
+    border: .5pt solid windowtext;
+    background-color: #1C1C1C;         /*Couleur de fond de la case*/
+    border: none;                    
 }
 
  .monstre{
@@ -54,59 +51,56 @@ border: none;
  }
 
 .monstre_effect{
-border-top: none;
-border-left: none;
-width: 178pt;
-font-size: 11.0pt;
-color: black;         /*Couleur de la police*/
-font-weight: 400;
-font-family: Calibri, sans-serif;    /*Style de la police*/
-border: .5pt solid windowtext; /*Aspect des contoure de la bordure*/
-background-color: #daa161;     /*Couleur de fond de la case*/
-border: none;
-                    
+    border-top: none;
+    border-left: none;
+    width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext; /*Aspect des contoure de la bordure*/
+    background-color: #daa161;     /*Couleur de fond de la case*/
+    border: none;                    
 }
 
 
 
 .monstre_fusion{
-border-top: none;
-border-left: none;
-width: 178pt;
-font-size: 11.0pt;
-color: black;         /*Couleur de la police*/
-font-weight: 400;
-font-family: Calibri, sans-serif;    /*Style de la police*/
-border: .5pt solid windowtext;   /*Aspect des contoure de la bordure*/
-background-color: #CF9FFF;     /*Couleur de fond de la case*/
-border: none;
-                        
+    border-top: none;
+    border-left: none;
+    width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;   /*Aspect des contoure de la bordure*/
+    background-color: #CF9FFF;     /*Couleur de fond de la case*/
+    border: none;                    
 }
 
 .monstre_rituel{
-border-top: none;
-border-left: none;
-width: 178pt;
-font-size: 11.0pt;
-color: black;         /*Couleur de la police*/
-font-weight: 400;
-font-family: Calibri, sans-serif;    /*Style de la police*/
-border: .5pt solid windowtext;    /*Aspect des contoure de la bordure*/
-background-color: #538DD5;     /*Couleur de fond de la case*/
-border: none;
-                            
+    border-top: none;
+    border-left: none;
+    width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;    /*Aspect des contoure de la bordure*/
+    background-color: #538DD5;     /*Couleur de fond de la case*/
+    border: none;                    
 }
     
 .monstre_lien{
-border-top: none;
-border-left: none;width: 178pt;
-font-size: 11.0pt;
-color: black;         /*Couleur de la police*/
-font-weight: 400;
-font-family: Calibri, sans-serif;    /*Style de la police*/
-border: .5pt solid windowtext;     /*Aspect des contoure de la bordure*/
-background-color:  #2679b8;     /*Couleur de fond de la case*/
-border: none;
+    border-top: none;
+    border-left: none;width: 178pt;
+    font-size: 11.0pt;
+    color: black;         /*Couleur de la police*/
+    font-weight: 400;
+    font-family: Calibri, sans-serif;    /*Style de la police*/
+    border: .5pt solid windowtext;     /*Aspect des contoure de la bordure*/
+    background-color:  #2679b8;     /*Couleur de fond de la case*/
+    border: none;
                                 
 }
 

@@ -2,12 +2,7 @@
     <head>
          <link href="Sky-Striker-Deck-Css.css " rel="stylesheet">
          <meta charset=UTF-8>
-        
-        
-    </header>
-    
     </head>
-   
     
 <body style="background-color: #E8F2D8;">                    <!--Entête du site avec un bouton pour revenir au menue principal et le titre ou logo du site-->
     <div class="header">
@@ -69,27 +64,39 @@
             <td class="Nbcollection">2</td>
         </tr>
         <tr>
-            <td><span class="card_title">3 Dragonirène Ernus</span></td>
+            <td id="3" onmouseover="showImage(3)" onmouseout="hideImage(3)">
+                <img src="Image/Dragon Maid/Ernus.png" class="card"/>
+                <span class="card_title">3 Dragonirène Ernus</span></td>
             <td class="Nbcollection">3</td>
         </tr>
         <tr>
-            <td><span class="card_title">3 Chambre Dragonirène</span></td>
+            <td id="4" onmouseover="showImage(4)" onmouseout="hideImage(4)">
+                <img src="Image/Dragon Maid/ChambreDragonmaid.png" class="card"/>
+                <span class="card_title">3 Chambre Dragonirène</span></td>
             <td class="Nbcollection">3</td>
         </tr>
         <tr>
-            <td><span class="card_title">3 Cuisine Dragonirène</span></td>
+            <td id="5" onmouseover="showImage(5)" onmouseout="hideImage(5)">
+                <img src="Image/Dragon Maid/KitchenDragonmaid.png" class="card"/>
+                <span class="card_title">3 Cuisine Dragonirène</span></td>
             <td class="Nbcollection">3</td>
         </tr>
         <tr>
-            <td><span class="card_title">3 Petit Salon Dragonirène</span></td>
+            <td id="6" onmouseover="showImage(6)" onmouseout="hideImage(6)">
+                <img src="Image/Dragon Maid/ParlorDragonmaid.png" class="card"/>
+                <span class="card_title">3 Petit Salon Dragonirène</span></td>
             <td class="Nbcollection">3</td>
         </tr>
         <tr>
-            <td><span class="card_title">2 Infirmière Dragonirène</span></td>
+            <td id="7" onmouseover="showImage(7)" onmouseout="hideImage(7)">
+                <img src="Image/Dragon Maid/NurseDragonmaid.png" class="card"/>
+                <span class="card_title">2 Infirmière Dragonirène</span></td>
             <td class="Nbcollection">2</td>
         </tr>
         <tr>
-            <td><span class="card_title">1 Linge Dragonirène</span></td>
+            <td id="8" onmouseover="showImage(8)" onmouseout="hideImage(8)">
+                <img src="Image/Dragon Maid/LaundryDragonmaid.png" class="card"/>
+                <span class="card_title">1 Linge Dragonirène</span></td>
             <td class="Nbcollection">1</td>
         </tr>
 
