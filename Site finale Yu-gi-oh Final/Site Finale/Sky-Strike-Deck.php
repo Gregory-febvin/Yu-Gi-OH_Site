@@ -1,6 +1,6 @@
 <html>
     <head>
-         <link href="Sky-Striker-Deck-Css.css " rel="stylesheet">
+         <link href="css/Deck.css " rel="stylesheet">
          <meta charset=UTF-8>
     </head>
     
@@ -10,7 +10,7 @@
             <div class="header_navbar_logo">
                 <h1 clas="header_navbar_logo">Site Web</h1>
                     <div class="header_navbar_menu">
-                        <a href="../index.html">
+                        <a href="../index.php">
                             <img src="Menu-Creation.png" width="120" height="40" alt="image du menue principale" />
                         </a>
                     </div>

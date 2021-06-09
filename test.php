@@ -13,7 +13,7 @@
         
             $connect = mysqli_connect('localhost', 'root', '','yugioh');
             
-            $cartepage=10; //Affichage de 5 carte par page
+            $cartepage=5; //Affichage de 5 carte par page
             
 
             $retour_total=mysqli_query($connect,'SELECT COUNT(*) AS total FROM carte'); 
@@ -26,7 +26,7 @@
             {
                 $pageActuelle=intval($_GET['page']);
             
-                if($pageActuelle>$nombreDePages)
+                if($pageActuelle>$nombreDePages) 
                 {
                     $pageActuelle=$nombreDePages;
                 }
