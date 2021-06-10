@@ -4,31 +4,28 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
 }
 
 .banners{
-font-family: Helvetica, Arial, sans-serif;
-font-size: 14px;
-color: #222222;
-position: relative;
-width: 980px;
-top: 200px;
-margin-top: 800px;
-display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    position: relative;
+    width: 980px;
+    top: 200px;
+    margin-top: 800px;
+    display: block;
 }
 
 .header{
-    height: 100px;
+    height: 10%;
     width: 100%;
     background-color: #58595B;
 }
-
-
-
+    
 .header_navbar{
-    height: 70px;
+    height: 10%;
     width: 100%;
     display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
-    flex-direction: row;        /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
-    justify-content: space-around; /*Permet a mon titre de site et mon bouton pour revenir aux menue principale de se placer aux centre*/
-    align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
+    flex-direction: column;     /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
+    align-items: center;   /*Permet de placer mes éléments déplacble au centre horizontalement du header*/
 }
 
 .BoxDeckInfo{
@@ -81,4 +78,8 @@ table .IMG:hover            /*Permet d'agrandir une image lorsque l'on passe la 
     top: 15%;
     right: 5%;
     height: 70%;
+}
+
+.link{
+    color:#222222;
 }

@@ -5,18 +5,23 @@
     </head>
     
 <body style="background-color: #E8F2D8;">                    
-    <div class="header">                                             <!--Entête du site avec un bouton pour revenir au menue principal et le titre ou logo du site-->
-        <div class="header_navbar">
-            <div class="header_navbar_logo">
-                <h1 clas="header_navbar_logo">Site Web</h1>
-                    <div class="header_navbar_menu">
+        <div class="header"> <!--Entête du site avec un bouton pour revenir au menue principal et le titre ou logo du site-->
+            <div class="header_navbar">
+
+                <a href="../index.php" class="link">
+                <h1 class="header_navbar_logo">Yu-Gi-Oh Deck Builder</h1>
+                </a>
+
+                <!--<div class="header_navbar_menu">
+                        
                         <a href="../index.php">
-                            <img src="Image/Menu-Creation.png" width="120" height="40" alt="image du menue principale" />
+                            <img src="Image/Menu-Creation.png" width="7%" height="5%" alt="image du menue principale" />
                         </a>
-                    </div>
-            </div> 
+                        
+                </div>--> 
+
+            </div>
         </div>
-    </div>
 
     <div class="BoxDeckInfo" id="deck-header" style="background-color: whitesmoke;">             <!--Création d'un encadré avec des information sur le créateur du deck, son format, sa légalité et le nom du deck-->
         <h1>
@@ -26,11 +31,11 @@
                 <img src="Image/Sky Striker/Raye.png" alt="Assaut de l'Air - As - Raye" height="120px" width="90px">
             </div>
 
-        <em>Créé par <a>Zerzeusse</a> le 28 février 2020</em>
+        <em>Créé par Zerzeusse le 28 février 2020</em>
         <br><strong> Categorie :</strong> Deck Yu-Gi-Oh 
         <br><strong> Format de Tournoi</strong> : Aucun
 
-        <p><img src="Image/BoutonLegal.png" alt="" title="Deck Légal"> Ce deck est légal</p>
+        <p><img src="Image/Image/BoutonLegal.png" alt="" title="Deck Légal"> Ce deck est légal</p>
     </div>
         
 

@@ -27,18 +27,17 @@ display: block; /*Place les éléments avec une dispotition bloc*/
 }
     
 .header{
-height: 100px;
+height: 10%;
 width: 100%;
 background-color: #58595B;
 }
     
 .header_navbar{
-height: 70px;
+height: 10%;
 width: 100%;
 display: flex;           /*Définie les élément dans le header_navbar comme étant déplacable*/
 flex-direction: column;     /*Définie les élément déplacable comme devant etre en ligne du premier au dernier*/
-justify-content: center; /*Permet a mon titre de site et mon bouton pour revenir aux menu principal de se placer aux centre*/
-align-items: center;   /*Permet de placer mes éléments déplacble au centre verticalement du header*/
+align-items: center;   /*Permet de placer mes éléments déplacble au centre horizontalement du header*/
 }
     
 h5 {
