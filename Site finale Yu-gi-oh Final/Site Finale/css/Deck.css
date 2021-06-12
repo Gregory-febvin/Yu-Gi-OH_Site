@@ -3,6 +3,7 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
     padding: 0; 
 }
 
+/*
 .banners{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -12,7 +13,7 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
     top: 200px;
     margin-top: 800px;
     display: block;
-}
+}*/
 
 .header{
     height: 10%;
@@ -55,21 +56,23 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
 thead{
     background-color: #D0E3FA;
 }
+tbody{
+    background-color: whitesmoke;
+}
 
 
-
-table .IMG:hover            /*Permet d'agrandir une image lorsque l'on passe la souris dessus*/
+/*
+table .IMG:hover            
 {
-    -webkit-transform:scale(2.1); /*L'image fera 2,1 fois sa taille après agrandissement*/
+    -webkit-transform:scale(2.1); 
     transform: scale(2.1); 
     transition: transform;
-    transition-duration: 1s; /*L'image prendra 1s pour s'agrandir*/
-}
+    transition-duration: 1s; 
+}*/
 
 .IMG{
     height: auto;
-    width:80%;
-    
+    width:80%; 
 }
 
 .card{
@@ -82,4 +85,16 @@ table .IMG:hover            /*Permet d'agrandir une image lorsque l'on passe la 
 
 .link{
     color:#222222;
+}
+
+.TypeCarte{
+    background-color: #D0E3FA;
+}
+
+.TableDeck{
+    width:35%;
+}
+
+th,td{
+    border:0.1rem solid #222222;
 }
