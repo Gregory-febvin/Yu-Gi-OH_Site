@@ -30,6 +30,7 @@ html, body { /* Toute la page, permet d'avoir le menu propre */
 }
 
 .BoxDeckInfo{
+    background-color: whitesmoke;
     line-height: 15px; /*Taile de la ligne*/
     color: #58595B;
     font-family: Arial,Helvetica,sans-serif; /*Police d'écriture*/
@@ -60,16 +61,6 @@ tbody{
     background-color: whitesmoke;
 }
 
-
-/*
-table .IMG:hover            
-{
-    -webkit-transform:scale(2.1); 
-    transform: scale(2.1); 
-    transition: transform;
-    transition-duration: 1s; 
-}*/
-
 .IMG{
     height: auto;
     width:80%; 
@@ -97,4 +88,9 @@ table .IMG:hover
 
 th,td{
     border:0.1rem solid #222222;
+}
+
+p{
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
 }
