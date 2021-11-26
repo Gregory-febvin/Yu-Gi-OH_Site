@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <table>
+        
+            <theader>
+                <td>Name</td>
+                <td>Type</td>
+                <td>ID</td>
+            </theader>
+            <tbody id="value">
+            </tbody>
+            
+        </table>
+        <div id="page"></div>
+            
+    </body>
+</html>
+
+<script>
+
+    let cartepage = 20 ; //Affichage de 6 decks par page
+   
+    function getAll( ) {
+
+    fetch(`https://db.ygoprodeck.com/api/v7/cardinfo.php?&language=fr`)
+    .then( ( data ) => data.json())
+    .then( ( data ) => {
+    
+        data = data.data;
+        let nombreDePages= Math.ceil( Object.keys( data ).length / cartepage );
+        console.log( nombreDePages );
+
+        let i;
+
+        let pageActuelle = new URL( location.href ).searchParams.get( "page" );
+
+        console.log( pageActuelle );
+
+        const lien = pageActuelle
+
+        for(i = pageActuelle - 5; i <= pageActuelle; i++ ) //On fait une boucle pour créer autant de page que nécésaire
+        {
+            
+            if( i == pageActuelle ) {
+                document.getElementById( "page" ).innerHTML += ` <b>${pageActuelle}</b> `;
+            } else {
+                document.getElementById( "page" ).innerHTML += ' <a href="file:///C:/Users/Febvin/www/Test%20Json/test2.html?page='+ i +'">'+ i +'</a> ';
+                
+            }
+        }
+
+
+        const cPosition = pageActuelle * cartepage - cartepage
+            , toDisplay = data.length < pageActuelle * cartepage ?  pageActuelle * cartepage - data.length : cartepage;
+
+        console.log( "test:", cPosition, toDisplay );
+
+        for (let index = cPosition; index < cPosition + toDisplay; index++) {
+  
+            const element = data[index]; // Affichage la carte en fonction du numéro dans la liste
+            document.getElementById( "value" ).innerHTML +=  `<tr><td>${element.name}</td><td>${element.type}</td><td>${element.id}</td></tr>`
+
+        }
+   
+    }).catch( ( err ) => {
+        console.log( err );
+    })
+
+    }
+    getAll( )
+</script>
